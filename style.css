@@ -1,0 +1,23 @@
+:root {
+  --main-text-color: #172b4d;
+  --secondary-text-color: #5e6c84;
+  --main-bg-color: #0079bf;
+  --secondary-bg-color: #e2e4e6;
+  --header-bg-color: #0366a0;
+  --main-btn-color: #0079bf;
+  --main-font: 'Open Sans';
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  background-color: var(--main-bg-color);
+}
